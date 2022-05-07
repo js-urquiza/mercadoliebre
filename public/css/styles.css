@@ -1,0 +1,158 @@
+/*-----------------------------
+GENERALES
+------------------------------*/
+
+h1 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12;
+}
+
+/*--------------------------------
+NAVIGATION
+----------------------------------*/
+
+.nav-list {
+    padding: 0;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+/*------
+FONTS
+--------*/
+
+.font-heading {
+    font-size: 24px;
+}
+
+.font-large {
+    font-size: 18px;
+}
+
+.font-medium {
+    font-size: 16px;
+}
+
+.icon-font {
+    font-size: 2em;
+}
+
+/* -----------------------
+COLORES
+--------------------------
+*/
+
+.font-white {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.font-yellow {
+    color: #EAC926;
+}
+
+.bg-yellow {
+    background-color: #EAC926;
+}
+
+.font-blue {
+    color: #03264C;
+}
+
+.bg-blue {
+    background-color: #03264C;
+}
+
+.font-lightblue {
+    color: #1259c3;;
+}
+
+.bg-lightblue {
+    background-color: #1259c3;;
+}
+
+.font-darkgrey {
+    color: #666;;
+    ;
+}
+
+.bg-darkgrey {
+    background-color: #666;;
+    ;
+}
+
+.font-lightgrey {
+    color: #ebebeb;;
+    ;
+    ;
+}
+
+.bg-lightgrey {
+    background-color: #ebebeb;;
+    ;
+    ;
+}
+
+.font-green {
+    color: #39b54a;;
+    ;
+    ;
+    ;
+}
+
+.bg-green {
+    background-color: #39b54a;;
+    ;
+    ;
+    ;
+}
+
+/*---------------------------------------
+MENÚ HAMBURGUESA - ICONO - SHADOW
+----------------------------------------*/
+
+.burger-menu{
+    text-align: center;
+}
+
+.burger-menu i {
+    padding: 4px;
+    color: white;
+    background-color: #1259c3;
+    height: 24px;
+    width: 24px;
+    margin: auto;
+    border-radius: 15%;
+}
+
+.truck-icon {
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+}
+
+.product {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    background-color: white;
+}
+
+.bt-grey {
+    border-top: 1px solid #ebebeb;
+}

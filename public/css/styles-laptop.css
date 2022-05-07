@@ -1,0 +1,9 @@
+@media (min-width: 769px) {
+    .product-title {
+        display: none;
+    }
+
+    .produc {
+        box-shadow: none;
+    }
+}

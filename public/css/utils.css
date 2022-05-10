@@ -63,6 +63,18 @@ MARGIN
     margin-bottom: 10px;
 }
 
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr8 {
+    margin-right: 8px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
 /*---------------------------
 TEXT
 ---------------------------*/

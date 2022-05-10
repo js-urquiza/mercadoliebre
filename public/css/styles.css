@@ -15,6 +15,10 @@ body {
 NAVIGATION
 ----------------------------------*/
 
+.nav-bar {
+    display: none;
+}
+
 .nav-list {
     padding: 0;
 }
@@ -155,4 +159,8 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
 
 .bt-grey {
     border-top: 1px solid #ebebeb;
+}
+
+.logo {
+    width: 200px;
 }

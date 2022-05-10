@@ -3,6 +3,10 @@
         display: none;
     }
 
+    .nav-bar {
+        display: flex;
+    }
+
     .product {
         box-shadow: none;
     }

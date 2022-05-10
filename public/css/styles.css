@@ -150,6 +150,10 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
     font-size: 18px;
     border: 1px solid #39b54a;
     border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
 .product {

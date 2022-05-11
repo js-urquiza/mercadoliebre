@@ -28,4 +28,14 @@
     .product {
         box-shadow: none;
     }
+
+    .grupo-articulos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .grupo-articulos article {
+        max-width: 24%;
+    }
 }

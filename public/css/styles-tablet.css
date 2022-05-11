@@ -1,3 +1,11 @@
 @media (min-width: 481px) {
-
+    .grupo-articulos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .grupo-articulos article {
+        max-width: 49%;
+    }
 }

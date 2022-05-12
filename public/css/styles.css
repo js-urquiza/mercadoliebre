@@ -160,6 +160,8 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
 .product {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     background-color: white;
+    width: 97.5%;
+    margin: 1.25%;
 }
 
 .bt-grey {
@@ -180,7 +182,8 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
 }
 
 .grupo-articulos article {
-    max-width: 99%;
+    max-width: 100%;
+    margin-bottom: 15px;
 }
 
 .main-header-top-bar {

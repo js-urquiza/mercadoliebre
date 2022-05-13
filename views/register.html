@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--LINKS-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/utils.css">
+    
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    
+    <link rel="stylesheet" type="text/css" href="/css/styles-tablet.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles-laptop.css">
+    
+    <!-----------------
+            FIN DE LINKS
+        ------------------>
+    
+    <title>Registrarse</title>
+</head>
+<body class="bg-lightgrey">
+    <header class="bg-yellow p-15">
+        <div class="main-header-top-bar p-10">
+            <img src="/img/logo-mercado-liebre.svg" alt="Logo Mercado Libre" class="logo">
+            <input type="text" class="barra-busqueda">
+            <p class="text-center">
+        </div>
+        <i class="fas fa-hand-holding-usd p-10"></i>
+        Comprá en cuotas y sin tarjeta de crédito
+        </p>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul class="nav-list">
+                <li><a href="/register" class="mr8">Creá tu cuenta</a><i class="far fa-id-card"></i></li>
+                <li><a href="/login" class="mr8">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="" class="mr8">Mis Compras</a><i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <main class="bg-lightgrey p-8 w-90 m-center">
+        <form action="" class="formulario">
+            <p class="">
+                <label for="nombreApellido">
+                    <input class="input-general" type="text" name="nombreApellido" placeholder="Nombre y apellido">
+                </label>
+            </p>
+            <p class="">
+                <label for="usuario">
+                    <input class="input-general" type="text" name="usuario" placeholder="Usuario">
+                </label>
+            </p>
+            <h2 class="mb-10">Fecha de nacimiento</h2>
+            <p class="">
+                <label for="fechaNacimiento">
+                    <input class="input-general" type="date" name="fechaNacimiento" placeholder="Fecha de nacimiento">
+                </label>
+            </p>
+            <p class="">
+                <label for="domicilio">
+                    <input class="input-general" type="text" name="domicilio" placeholder="Domicilio">
+                </label>
+            </p>
+            <h2 class="mb-10">Tipo de usuario</h2>
+            <p class="">
+                <select class="input-general" name="tipoUsuario" id="tipoUsuario">
+                    <option value="vendedor">Quiero vender</option>
+                    <option value="comprador">Quiero comprar</option>
+                </select>
+            </p>
+            <h2 class="mb-10">Intereses</h2>
+                <p class="mb-10">
+                    <label for="intereses"><input type="checkbox" value="electro">Electro</label>
+                </p>
+                <p class="mb-10">
+                    <label for="intereses"><input type="checkbox" value="moda">Moda</label>
+                </p>
+                <p class="mb-10">
+                    <label for="intereses"><input type="checkbox" value="hogar">Hogar</label>
+                </p>
+                <p class="mb-10">
+                    <label for="intereses"><input type="checkbox" value="jugueteria">Juguetería</label>
+                </p>
+                <p class="mb-10">
+                    <label for="intereses"><input type="checkbox" value="vidaSana">Vida sana</label>
+                </p>
+            <p class="">
+                <label for="fotoUsuario">
+                    <input class="input-general" type="file" name="fotoUsuario" >
+                </label>
+            </p>
+            <p class="">
+                <label for="contrasena">
+                    <input class="input-general" type="password" name="contrasena" placeholder="Contraseña">
+                </label>
+            </p>
+            <p class="">
+                <label for="confirmaContrasena">
+                    <input class="input-general" type="password" name="confirmaContrasena" placeholder="Confirmar contraseña">
+                </label>
+            </p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </main>
+    <footer class="p-8 bg-white">
+        <section class="text-center">
+            <i class="fas fa-credit-card font-lightblue icon-font mb-10 mt-50"></i>
+            <h3>Pagá con tarjeta o en efectivo</h3>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+        </section>
+        <section class="text-center">
+            <i class="fas fa-gift font-lightblue icon-font mb-10 mt-50"></i>
+            <h3>Envío gratis desde $2500</h3>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+        </section>
+        <section class="text-center">
+            <i class="fas fa-user-shield font-lightblue icon-font mb-10 mt-50"></i>
+            <h3>Seguridad, de principio a fin</h3>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre protegid@.</p>
+        </section>
+        <section class="text-center">
+            <p class="mt-50">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </section>
+    </footer>
+</body>
+</html>

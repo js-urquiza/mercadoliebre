@@ -198,3 +198,12 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
 .barra-busqueda {
     width: 50%;
 }
+
+.formulario {
+    max-width: 100%;
+}
+
+.input-general {
+    width: 100%;
+    margin-bottom: 10px;
+}

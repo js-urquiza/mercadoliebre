@@ -8,4 +8,9 @@
     .grupo-articulos article {
         max-width: 47.5%;
     }
+
+    .formulario {
+        max-width: 450px;
+        margin: 0 auto;
+    }
 }

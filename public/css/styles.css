@@ -131,14 +131,15 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
 
 .burger-menu{
     text-align: center;
+    font-size: 20px;
 }
 
 .burger-menu i {
-    padding: 4px;
+    padding: 5px;
     color: white;
     background-color: #1259c3;
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
     margin: auto;
     border-radius: 15%;
 }
@@ -194,12 +195,12 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
 }
 
 .logo {
-    width: 49%;
+    width: 50%;
     height: 42px;
 }
 
 .search-box {
-    width: 49%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

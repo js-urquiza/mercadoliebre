@@ -171,14 +171,15 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
 .precio-descuento {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .precio {
-    width: 50%;
+    margin-right: 5px;
 }
 
 .descuento {
-    width: 50%;
+    margin-left: 5px;
 }
 
 .grupo-articulos article {
@@ -199,7 +200,7 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
 
 .barra-busqueda {
     width: 49%;
-    height: 42px;
+    height: 41px;
     padding: 15px;
     border: none;
     border-radius: 5px;

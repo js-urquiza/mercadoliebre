@@ -52,11 +52,14 @@
     }
 
     .logo {
-        width: 15%;
+        width: 15%
     }
 
-    .input-search {
-        width: 50%;
+    .search-box {
+        width: 55%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .compra-en-cuotas {

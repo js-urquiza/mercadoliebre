@@ -198,12 +198,34 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
     height: 42px;
 }
 
-.input-search {
+.search-box {
     width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-search {
+    width: 75%;
     height: 41px;
     padding: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+    width: 36px;
+    height: 41px;
+    border-left: solid 1px #ebebeb;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFF;
+}
+
+.search-button i {
+    color: #666;
 }
 
 .formulario {

@@ -54,8 +54,10 @@
     }
 
     .formulario {
-        max-width: 500px;
+        max-width: 424;
         margin: 0 auto;
+        padding: 32px 64px;
+        background-color: #fff;
     }
 
 }

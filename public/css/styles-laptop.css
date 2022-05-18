@@ -39,6 +39,10 @@
         max-width: 22.5%;
     }
 
+    .grupo-articulos article:hover .product-title {
+        display: block;
+    }
+
     .formulario {
         max-width: 500px;
         margin: 0 auto;

@@ -82,47 +82,35 @@ COLORES
 }
 
 .font-lightblue {
-    color: #1259c3;;
+    color: #1259c3;
 }
 
 .bg-lightblue {
-    background-color: #1259c3;;
+    background-color: #1259c3;
 }
 
 .font-darkgrey {
-    color: #666;;
-    ;
+    color: #666;
 }
 
 .bg-darkgrey {
-    background-color: #666;;
-    ;
+    background-color: #666;
 }
 
 .font-lightgrey {
-    color: #ebebeb;;
-    ;
-    ;
+    color: #ebebeb;
 }
 
 .bg-lightgrey {
-    background-color: #ebebeb;;
-    ;
-    ;
+    background-color: #ebebeb;
 }
 
 .font-green {
-    color: #39b54a;;
-    ;
-    ;
-    ;
+    color: #39b54a;
 }
 
 .bg-green {
-    background-color: #39b54a;;
-    ;
-    ;
-    ;
+    background-color: #39b54a;
 }
 
 /*---------------------------------------

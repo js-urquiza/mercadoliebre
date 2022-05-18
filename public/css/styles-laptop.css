@@ -39,6 +39,10 @@
         max-width: 22.5%;
     }
 
+    .grupo-articulos article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
     .grupo-articulos article:hover .product-title {
         display: block;
     }

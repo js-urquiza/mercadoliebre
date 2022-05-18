@@ -260,3 +260,12 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.boton-login {
+    width: 100%;
+    padding: 5px;
+    background-color: #1259c3;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}

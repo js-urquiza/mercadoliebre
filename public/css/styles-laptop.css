@@ -48,6 +48,10 @@
         display: block;
     }
 
+    .grupo-articulos article:hover .truck-icon {
+        transform: rotateZ(-90deg);
+    }
+
     .formulario {
         max-width: 500px;
         margin: 0 auto;

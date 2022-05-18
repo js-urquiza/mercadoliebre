@@ -50,6 +50,7 @@
 
     .grupo-articulos article:hover .truck-icon {
         transform: rotateZ(-90deg);
+        transition: transform 1.2s;
     }
 
     .formulario {

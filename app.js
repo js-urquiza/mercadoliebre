@@ -4,10 +4,15 @@ const express = require('express');
 const app = express();
 
 const path = require('path');
+const { addAbortSignal } = require('stream');
 
-app.listen(PORT, () => {
+/*app.listen(PORT, () => {
     console.log('El servidor está funcionando en el puerto ' + PORT);
-});
+});*/
+
+app.listen(process.env.PORT || 3000, function() {
+    console.log('El servidor está funcionando en el puerto ' + PORT);
+})
 
 app.use(express.static(path.join(__dirname, 'public'))); // Declara la carpeta "public" como "pública", por tanto todo lo que siga de "/" son subcarpetas de "public".
 

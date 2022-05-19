@@ -59,5 +59,8 @@
         padding: 32px 64px;
         background-color: #fff;
     }
+    .boton-login:hover {
+        background-color: #0022AA;
+    }
 
 }

@@ -1,3 +1,5 @@
+const PORT = process.env.PORT || 3000;
+
 const express = require('express');
 const app = express();
 
@@ -8,7 +10,7 @@ const { addAbortSignal } = require('stream');
     console.log('El servidor está funcionando en el puerto ' + PORT);
 });*/
 
-app.listen(process.env.PORT || 3000, function() {
+app.listen(PORT, function() {
     console.log('El servidor está funcionando en el puerto ' + PORT);
 })
 

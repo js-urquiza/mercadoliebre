@@ -38,6 +38,8 @@
     .formulario {
         max-width: 450px;
         margin: 0 auto;
+        padding: 32px 64px;
+        background-color: #fff;
     }
 
     /*----------------------

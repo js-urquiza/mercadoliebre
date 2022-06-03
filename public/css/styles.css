@@ -220,6 +220,8 @@ MENÚ HAMBURGUESA - ICONO - SHADOW
 .formulario {
     max-width: 100%;
     border-radius: 6px;
+    padding: 16px 32px;
+    background-color: #FFF;
 }
 
 .input-general {
